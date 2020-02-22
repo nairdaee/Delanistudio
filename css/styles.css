@@ -137,3 +137,26 @@ h3{
     background:rgb(109, 9, 9);
     color:white;
 }
+
+/*Scroll bar */
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color:rgb(119, 119,117);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 153, 58);
+    border-radius: 30px;
+}
+
+/*About us */
+#aboutUs{
+    padding:50px 10%;
+}
+/* Services section */
+#services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size:cover;
+    padding: 100px 10%;
+    color:white;
+    text-shadow:0 0 20px #000;
+}
