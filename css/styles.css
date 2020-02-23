@@ -160,3 +160,69 @@ body::-webkit-scrollbar-thumb{
     color:white;
     text-shadow:0 0 20px #000;
 }
+
+/* What we do section */
+#whatWeDo{
+    padding-top:70px;
+}
+#whatWeDo{
+    position:relative;
+    width:30%;
+    min-height: 180px;
+    padding: 10px 0;
+    cursor:pointer;
+}
+.text{
+    overflow:hidden;
+}
+#whatWeDo>div img{
+    transition: all 0.1s ease-out;
+}
+#whatWeDo>div img:hover{
+    transform: scale(0.8);
+    border-radius: 15%;
+    padding: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+/*portfolio */
+#portfolio img{
+    width:100%;
+}
+
+.port_cont{
+    height:23%;
+    width: 23%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden:
+}
+#portfolio div:hover img{
+    transform:scale(1.4);
+}
+.port_desc{
+    position:absolute;
+    background: rgba(255, 255, 255, 0.63);
+    width:100%;
+    height:100%;
+    cursor: pointer;
+    z-index: 30;
+    transform: translateX(-102%)rotate(45deg);
+    transition:all 0.3s ease;
+    border: 2px solid rgb(255,255,255);
+}
+.here{
+    transform: translateX(0)rotate(0deg);
+    border:none;
+}
+#portfolio p{
+    font-size: 1.1em;
+    line-height: 90%;
+    margin:20% 5%;
+    padding: 5% 0;
+    overflow: hidden;
+    font-family: 'Cormorant Garamond', ;
+    letter-spacing: 2px;
+    background:rgba(255,255,255,0.664);
+    border-top: 1.5px dahsed rgb(255, 153, 0); 
+}
