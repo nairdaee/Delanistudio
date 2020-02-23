@@ -17,7 +17,7 @@ $(document).ready(function () {
     $(this).children(".hide-img").fadeToggle(500);
   });
 
-  // this is for the portfolio section and enable the mouseover-mouseout event
+  // this creates a hover effect using mouseover/mouseout
   $(".port_desc").removeClass("here");
   $(".port_cont").mouseover(function () {
     $(this).children(".port_desc").addClass("here");
