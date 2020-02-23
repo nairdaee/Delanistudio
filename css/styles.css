@@ -1,6 +1,39 @@
+/* MEDIA QUERIES SPECIFICATIONS*/
+@media only screen and (min-width: 1000px){
+  #portfolio>div>div>p{
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px){
+  header div{
+    padding-top: 30vw;
+  }  
+  #whatWeDo div{
+    width: 100%;
+    min-height: 130px;
+  }
+  #portfolio>div{
+    width: 49%;
+  }
+  #portfolio>div>div>p{
+    font-size: 1.4em; 
+  }
+  form input, form textarea{
+    width: 100%;
+    margin: 5px 0;
+  }
+  form input[type=submit]{
+    width: auto;
+    padding: 0 15%;
+  }
+}
+
+
+/*FONT IMPORT LINK */
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Inconsolata|Lacquer|Tomorrow&display=swap');
 
 
+/*GENERAL STYLING */
 *{
   box-sizing: border-box;
   transition: all 0.5s ease-in;
@@ -32,29 +65,28 @@ h3{
   to{transform: translateY(0);}
 }
 .success{
-  background: rgb(0, 194, 0);
+  background: rgb(32, 75, 32);
   color: white;
   text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 .error{
-  background: rgb(218, 0, 0);
+  background: rgb(116, 27, 27);
   color: white;
 }
 
-/* ---------------------------------------------
-          SCROLL BAR STYLING
---------------------------------------------- */
+
+/* SCROLL BAR STYLING*/
 body::-webkit-scrollbar {
   width: 10px;
-  background-color: rgb(119, 119, 117);
+  background-color: rgb(22, 22, 11);
 }
 body::-webkit-scrollbar-thumb {
   background-color: rgb(255, 153, 58);
   border-radius: 30px;
 }
-/* ---------------------------------------------
-          LOADER SECTON
---------------------------------------------- */
+
+
+/* PRE-LOADER SECTION STYLING */
 #Loader{
   position: fixed;
   top: 0px;
@@ -69,6 +101,7 @@ body::-webkit-scrollbar-thumb {
 }
 #Loader div p{
   padding-top: 30px;
+  color: black;
 }
 #Loader div img{
   animation: pulse 1.5s linear infinite;
@@ -90,9 +123,9 @@ body::-webkit-scrollbar-thumb {
 .onLoad{
   transform: translateY(0);
 }
-/* ---------------------------------------------
-          HEADER SECTON
---------------------------------------------- */
+
+
+/*HEADER SECTION STYLING*/
 header{
   background-image: url('../assets/backgrounds/h_img.jpeg');
   height: 100vh;
@@ -126,15 +159,15 @@ header div h1{
   40%{bottom: 10vh;}
   70%{bottom: 8vh;}
 }
-/* ---------------------------------------------
-          ABOUT US SECTON
---------------------------------------------- */
+
+
+/* ABOUT US SECTION STYLING*/
 #aboutUs{
   padding: 50px 10%;
 }
-/* ---------------------------------------------
-          SERVICES SECTON
---------------------------------------------- */
+
+
+/* SERVICES SECTION STYLING*/
 #services{
   background-image: url('../assets/backgrounds/s_image.jpg');
   background-size: cover;
@@ -142,9 +175,9 @@ header div h1{
   color: white;
   text-shadow: 0 0 20px #000
 }
-/* ---------------------------------------------
-          WHAT WE DO SECTON
---------------------------------------------- */
+
+
+/* WHAT WE DO SECTION STYLING */
 #whatWeDo{
   padding-top: 70px;
 }
@@ -166,11 +199,11 @@ header div h1{
   transform: scale(0.8);
   border-radius: 15%;
   padding: 10px;
-  box-shadow: 0 0 20px rgb(0, 0, 0);
+  box-shadow: 0 0 40px rgb(211, 163, 8);
 }
-/* ---------------------------------------------
-          PORTFOLIO SECTON
---------------------------------------------- */
+
+
+/* PORTFOLIO SECTION STYLING */
 #portfolio img{
   width: 100%;
 }
@@ -210,9 +243,9 @@ header div h1{
   background: rgba(255, 255, 255, 0.664);
   border-top: 1.5px dashed rgb(255, 153, 0);
 }
-/* ---------------------------------------------
-          CONTACT SECTON
---------------------------------------------- */
+
+
+/* CONTACT SECTION STYLING */
 #contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
   padding: 20px 5px;
@@ -251,7 +284,7 @@ form input:focus, textarea:focus{
   transform: scale(1.03);
 }
 form input[type=submit]{
-  background: rgba(255, 166, 0, 0.699);
+  background: rgba(44, 30, 3, 0.699);
   font-weight: 300;
   font-size: 1.6em;
   padding: 0px;
@@ -259,12 +292,12 @@ form input[type=submit]{
 }
 form input[type=submit]:hover{
   border-radius: 30px;
-  background: rgb(255, 166, 0);
+  background: rgb(104, 69, 4);
   outline: none;
 }
-/* ---------------------------------------------
-          FOOTER SECTON
---------------------------------------------- */
+
+
+/* FOOTER SECTION STYLING*/
 footer{
   padding-top: 40px;
 }
@@ -279,35 +312,9 @@ footer img:hover{
   background: rgb(255, 145, 0);
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-/* ---------------------------------------------
-       MEDIA QUERIES
---------------------------------------------- */
-@media only screen and (min-width: 1000px){
-  #portfolio>div>div>p{
-    font-size: 2em;
-  }
-}
-@media only screen and (max-width: 600px){
-  header div{
-    padding-top: 30vw;
-  }  
-  #whatWeDo div{
-    width: 100%;
-    min-height: 130px;
-  }
-  #portfolio>div{
-    width: 49%;
-  }
-  #portfolio>div>div>p{
-    font-size: 1.4em; 
-  }
-  form input, form textarea{
-    width: 100%;
-    margin: 5px 0;
-  }
-  form input[type=submit]{
-    width: auto;
-    padding: 0 15%;
-  }
-}
 
+
+/*ADDITIONAL STYLINGS */
+.end{
+  color: rgb(85, 60, 13);
+}
