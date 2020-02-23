@@ -6,11 +6,11 @@ $(function(){
 
 $(document).ready(function () {
   // this is a custom pre-loading screen which allows for images and other assets to load as well as provide a nice visual effect
-  $("#Loader").fadeOut(1000);
-  $("#head").addClass("onLoad").fadeIn(2000);
-  $("html, body").scrollTop(0);
+  $("#Loader").fadeOut(5000);
+  $("#head").addClass("onLoad").fadeIn(1000);
+  $("html, body").scrollTop(100);
 
-  // these are for the "what we do" section and enable for the icons to reveal contaent and viceversa
+  // these are for the "what we do" section and enable for the icons to reveal content and viceversa
   $(".text").hide();
   $(".weDo-cont").click(function () {
     $(this).children(".text").slideToggle(500);
