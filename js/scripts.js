@@ -28,10 +28,10 @@ $(document).ready(function () {
 
   // this entails the form submission conditional statements 
   $("#submission").submit(function(event){
-    var data_1 = $("input:first").val();
-    var data_2 = $("input#mail").val();
-    if(data_1 && data_2 != ""  ){
-      $(".message").text("Thank you, " + data_1  + "! Your message has been received.");
+    var userName = $("input:first").val();
+    var userEmail = $("input#mail").val();
+    if(userName && userEmail != ""  ){
+      $(".message").text("Thank you, " + userName  + "! Your message has been received.");
       $(".message").removeClass("error");
       $(".message").addClass("success");
     }else{
