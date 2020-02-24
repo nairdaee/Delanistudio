@@ -2,7 +2,7 @@
 #### DELANI STUDIO, 23-02-2020.
 #### By Adrian Etenyi
 ## Description
-Delani studio is
+Delani studio is a virtual studio that helps upcoming companies create websites while having fun. It deals in software development.
 ## Setup/installation requirements
 * Download Chrome
 * Install Chrome
