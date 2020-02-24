@@ -1,4 +1,4 @@
-# STUDIO PROJECT
+# VIRTUAL STUDIO PROJECT
 #### DELANI STUDIO, 23-02-2020.
 #### By Adrian Etenyi
 ## Description
