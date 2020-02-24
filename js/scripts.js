@@ -22,7 +22,7 @@ $(document).ready(function () {
   $(".projectsect").mouseover(function () {
     $(this).children(".projectname").addClass("mkvisible");
   });
-  $(".projectsect").mouseleave(function () {
+  $(".projectsect").mouseout(function () {
     $(this).children(".projectname").removeClass("mkvisible").fadeIn;
   });
 
