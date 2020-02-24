@@ -18,12 +18,12 @@ $(document).ready(function () {
   });
 
   // these methods create a hover effect using mouseover/mouseout
-  $(".portfo").removeClass("here");
-  $(".portfo_cont").mouseover(function () {
-    $(this).children(".portfo").addClass("here");
+  $(".projectname").removeClass("mkvisible");
+  $(".projectsect").mouseover(function () {
+    $(this).children(".projectname").addClass("mkvisible");
   });
-  $(".portfo_cont").mouseleave(function () {
-    $(this).children(".portfo").removeClass("here").fadeIn;
+  $(".projectsect").mouseleave(function () {
+    $(this).children(".projectname").removeClass("mkvisible").fadeIn;
   });
 
   // this entails the form submission conditional statements 
