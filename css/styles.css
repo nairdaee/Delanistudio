@@ -96,18 +96,19 @@ body::-webkit-scrollbar-thumb {
   z-index: 3000;
 }
 #Loader div{
-  margin-top: 40vh;
-  
+  margin-top: 40vh; 
 }
 #Loader div p{
   padding-top: 30px;
   color: black;
+  align-content: center;
 }
 #Loader div img{
   animation: pulse 1.5s linear infinite;
   border-radius: 50%;
   transform: scale(0.5);
   box-shadow: 0 0 0px #000;
+
 }
 @keyframes pulse{
   0%{box-shadow: 0 0 0px #000; transform: scale(1.3);}
