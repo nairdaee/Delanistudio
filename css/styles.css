@@ -1,7 +1,7 @@
 /* MEDIA QUERIES SPECIFICATIONS*/
 @media only screen and (min-width: 1000px){
   #portfolio>div>div>p{
-    font-size: 2em;
+    font-size: 13pt;
   }
 }
 @media only screen and (max-width: 600px){
@@ -191,8 +191,6 @@ header div h1{
 }
 .text{
   overflow: hidden;
-  position:relative;
-  right:10px;
 }
 
 #sect1>div img{
@@ -247,7 +245,7 @@ header div h1{
   font-family: "Questrial",serif;
   letter-spacing: 2px;
   background: rgba(255, 255, 255, 0.664);
-  border-top: 1.5px dashed rgb(255, 153, 0);
+  border-top: 1.5px dashed rgb(8, 8, 8);
 }
 
 

@@ -10,7 +10,7 @@ $(document).ready(function () {
   $("#head").addClass("onLoad").fadeIn(3000);
   $("html, body").scrollTop(100);
 
-  // these methods are for the "what we do" section and enable for the icons to reveal content and viceversa
+  // these methods are for the "what we do" section and enable for the icons to reveal content and viceversa.Children methods derived from DOM tree
   $(".text").hide();
   $(".whatWeDo").click(function () {
     $(this).children(".text").slideToggle(500);
